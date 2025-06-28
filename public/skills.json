@@ -1,0 +1,52 @@
+[
+  {
+    "name": "HTML",
+    "level": "Advanced",
+    "icon": "https://i.ibb.co/T3gznXg/html.png"
+  },
+  {
+    "name": "CSS",
+    "level": "Advanced",
+    "icon": "https://i.ibb.co/v6NxkGf4/css.png"
+  },
+  {
+    "name": "Tailwind CSS",
+    "level": "Advanced",
+    "icon": "https://i.ibb.co/ynwB6xfc/tailwind.png"
+  },
+  {
+    "name": "JavaScript",
+    "level": "Intermediate",
+    "icon": "https://i.ibb.co/4RCNSQhv/js.png"
+  },
+  {
+    "name": "React",
+    "level": "Intermediate",
+    "icon": "https://i.ibb.co/rRDG0MtX/react.png"
+  },
+  {
+    "name": "Firebase",
+    "level": "Intermediate",
+    "icon": "https://i.ibb.co/qLxjgvZr/firebase.png"
+  },
+  {
+    "name": "Node.js",
+    "level": "Intermediate",
+    "icon": "https://i.ibb.co/zhXjbJ3s/node.png"
+  },
+  {
+    "name": "Express.js",
+    "level": "Intermediate",
+    "icon": "https://i.ibb.co/R4vF3sB4/express.png"
+  },
+  {
+    "name": "MongoDB",
+    "level": "Intermediate",
+    "icon": "https://i.ibb.co/s9QYjM5z/mongodb.png"
+  },
+  {
+    "name": "JWT",
+    "level": "Basic",
+    "icon": "https://i.ibb.co/ZzvdvYJt/jwt.png"
+  }
+]

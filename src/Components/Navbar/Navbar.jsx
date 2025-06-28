@@ -1,64 +1,80 @@
 import React from "react";
-import { Link, NavLink } from "react-router";
-import logo from "../../assets/myLogo.png"
+import logo from "../../assets/myLogo.png";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
+
   const links = (
     <>
       <li>
-        <NavLink
-          to="/"
-          className={({ isActive }) =>
-            isActive ? " font-semibold bg-primary text-white" : " font-medium"
-          }
+        <Link
+          activeClass=" !bg-primary text-white"
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={-50}
+          duration={500}
+          className="font-medium"
         >
           Home
-        </NavLink>
+        </Link>
       </li>
       <li>
-        <NavLink
-          to="/about"
-          className={({ isActive }) =>
-            isActive ? " font-semibold bg-primary text-white" : " font-medium"
-          }
+        <Link
+          activeClass=" !bg-primary text-white"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-80}
+          duration={500}
+          className="font-medium"
         >
           About
-        </NavLink>
+        </Link>
       </li>
       <li>
-        <NavLink
-          to="/skills"
-          className={({ isActive }) =>
-            isActive ? " font-semibold bg-primary text-white" : " font-medium"
-          }
+        <a
+          activeClass=" !bg-primary text-white"
+          to="skills"
+          spy={true}
+          smooth={true}
+          offset={-80}
+          duration={500}
+          className="font-medium"
         >
           Skills
-        </NavLink>
+        </a>
       </li>
       <li>
-        <NavLink
-          to="/projects"
-          className={({ isActive }) =>
-            isActive ? " font-semibold bg-primary text-white" : " font-medium"
-          }
+        <a
+          activeClass=" !bg-primary text-white"
+          to="project"
+          spy={true}
+          smooth={true}
+          offset={-80}
+          duration={500}
+          className="font-medium"
         >
           Projects
-        </NavLink>
+        </a>
       </li>
       <li>
-        <NavLink
-          to="/contact"
-          className={({ isActive }) =>
-            isActive ? " font-semibold bg-primary text-white" : " font-medium"
-          }
+        <a
+          activeClass="!bg-primary text-white"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-80}
+          duration={500}
+          className="font-medium"
         >
           Contact
-        </NavLink>
+        </a>
       </li>
     </>
   );
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar mb-0 bg-base-100">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -85,9 +101,9 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <Link to="/" className="text-xl font-semibold text-primary">
+        <a to="/" className="text-xl font-semibold text-primary">
           <img className="w-30" src={logo} alt="" />
-        </Link>
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
