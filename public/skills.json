@@ -2,42 +2,42 @@
   {
     "name": "HTML",
     "level": "Advanced",
-    "icon": "https://i.ibb.co/T3gznXg/html.png"
+    "icon": "https://i.ibb.co/7dps3434/html.png"
   },
   {
     "name": "CSS",
     "level": "Advanced",
-    "icon": "https://i.ibb.co/v6NxkGf4/css.png"
+    "icon": "https://i.ibb.co/BHXw09CL/css.png"
   },
   {
     "name": "Tailwind CSS",
     "level": "Advanced",
-    "icon": "https://i.ibb.co/ynwB6xfc/tailwind.png"
+    "icon": "https://i.ibb.co/spS3CX3S/tailwind.png"
   },
   {
     "name": "JavaScript",
     "level": "Intermediate",
-    "icon": "https://i.ibb.co/4RCNSQhv/js.png"
+    "icon": "https://i.ibb.co/HfJXBLCd/js.png"
   },
   {
     "name": "React",
     "level": "Intermediate",
-    "icon": "https://i.ibb.co/rRDG0MtX/react.png"
+    "icon": "https://i.ibb.co/Z1H4PNCL/react.png"
   },
   {
     "name": "Firebase",
     "level": "Intermediate",
-    "icon": "https://i.ibb.co/qLxjgvZr/firebase.png"
+    "icon": "https://i.ibb.co/xK81K3Zz/firebase.png"
   },
   {
     "name": "Node.js",
     "level": "Intermediate",
-    "icon": "https://i.ibb.co/zhXjbJ3s/node.png"
+    "icon": "https://i.ibb.co/rG4wv531/node.png"
   },
   {
     "name": "Express.js",
     "level": "Intermediate",
-    "icon": "https://i.ibb.co/R4vF3sB4/express.png"
+    "icon": "https://i.ibb.co/ZpQHnyYq/express.png"
   },
   {
     "name": "MongoDB",
@@ -47,6 +47,6 @@
   {
     "name": "JWT",
     "level": "Basic",
-    "icon": "https://i.ibb.co/ZzvdvYJt/jwt.png"
+    "icon": "https://i.ibb.co/jkZNFCkZ/jwt.png"
   }
 ]

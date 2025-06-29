@@ -1,0 +1,149 @@
+[
+  {
+    "title": "Fresh Reminders",
+    "description": "Fresh Reminders is a food inventory management app that helps users track expiry dates, reduce waste, and stay organized using search, filters, notes, and JWT-based authentication.",
+    "keyFeatures": [
+      "Expiry Date Tracking",
+      "Smart Search & Filter",
+      "Countdown with Reminders",
+      "Secure JWT Authentication"
+    ],
+    "tech": [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Firebase",
+      "JWT"
+    ],
+    "image": "https://i.ibb.co/9HyLHPXg/localhost-5173.png",
+    "links": [
+      {
+        "type": "Live",
+        "url": "https://fresh-reminder-82973.web.app"
+      },
+      {
+        "type": "Client Side Code",
+        "url": "https://github.com/md-alamin2/fresh-reminder"
+      },
+      {
+        "type": "Server Side Code",
+        "url": "https://github.com/md-alamin2/fresh-reminder-server"
+      }
+    ]
+  },
+  {
+    "title": "Task Linker",
+    "description": "A freelance platform where clients post tasks, freelancers bid, and both manage work securely. Features include task control, bid tracking, user profiles, authentication, and light/dark mode support.",
+    "keyFeatures": [
+      "Task Posting & Management",
+      "Freelancer Bidding System",
+      "User Profiles with Authentication",
+      "Light/Dark Mode Toggle"
+    ],
+    "tech": [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Firebase",
+      "JWT"
+    ],
+    "image": "https://i.ibb.co/NvjX24J/task-linker.png",
+    "links": [
+      {
+        "type": "Live",
+        "url": "https://ph-assignment-10-43909.web.app/"
+      },
+      {
+        "type": "Client Side Code",
+        "url": "https://github.com/md-alamin2/task-linker"
+      },
+      {
+        "type": "Server Side Code",
+        "url": "https://github.com/md-alamin2/task-linker-server"
+      }
+    ]
+  },
+  {
+    "title": "Dragoon News",
+    "description": "Dragoon News is a responsive front-end web app built with React that delivers real-time news across topics with personalized access through secure Firebase authentication.",
+    "keyFeatures": [
+      "Real-Time News by Category",
+      "Responsive Front-End with React",
+      "Firebase Authentication",
+      "Personalized User Experience"
+    ],
+    "tech": [
+      "React",
+      "Firebase Authentication",
+      "React Router",
+      "Tailwind CSS"
+    ],
+    "image": "https://i.ibb.co/8gJXSBnk/dragon-news-dac2a-web-app-news-1.png",
+    "links": [
+      {
+        "type": "Live",
+        "url": "https://useless-bulb.surge.sh/"
+      },
+      {
+        "type": "Client Side Code",
+        "url": "https://github.com/md-alamin2/flagship-phone"
+      }
+    ]
+  },
+
+  {
+    "title": "English জানালা",
+    "description": "English জানালা is a vocabulary learning app that helps users build English skills through level-based word lessons, pronunciation, and clean UI — built with HTML, Tailwind CSS, DaisyUI, and JavaScript.",
+    "keyFeatures": [
+      "Level-Based Vocabulary Learning",
+      "Word Pronunciation with Audio",
+      "Responsive UI with Smooth UX",
+      "FAQ and Structured Lessons"
+    ],
+    "tech": ["HTML", "Tailwind CSS", "DaisyUI", "Vanilla JavaScript"],
+    "image": "https://i.ibb.co/KzXgXBts/eng-janala.jpg",
+    "links": [
+      {
+        "type": "Live",
+        "url": "https://md-alamin2.github.io/collage-project/"
+      },
+      {
+        "type": "Client Side Code",
+        "url": "https://github.com/md-alamin2/collage-project"
+      }
+    ]
+  },
+  {
+    "title": "Phudu",
+    "description": "Phudu is a user-friendly appointment booking platform where patients can easily find doctors based on their health concerns, schedule appointments, view booking history, and cancel appointments — all in one place.",
+    "keyFeatures": [
+      "Doctor Booking System",
+      "Problem-Based Search",
+      "Booking History Page",
+      "Appointment Cancellation"
+    ],
+    "tech": [
+      "React",
+      "Tailwind CSS",
+      "DaisyUI",
+      "React Router"
+    ],
+    "image": "https://i.ibb.co/VcGySHT3/phudu.png",
+    "links": [
+      {
+        "type": "Live",
+        "url": "http://ignorant-copper.surge.sh/"
+      },
+      {
+        "type": "Client Side Code",
+        "url": "https://github.com/md-alamin2/phudu"
+      }
+    ]
+  }
+  
+
+]

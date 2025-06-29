@@ -5,15 +5,22 @@ import liIcon from "../../assets/linkedIn.png";
 import githubIcon from "../../assets/github.png";
 import fbIcon from "../../assets/fb.png";
 import ContactForm from "./ContactForm";
+import { motion } from "motion/react";
 
 const Contact = () => {
   return (
-    <div id="contact" className="mt-20 max-w-7xl mx-auto">
+    <div id="contact" className="mt-20 mx-auto">
       <h2 className="text-4xl font-bold mt-20">Contact Me</h2>
       <div className="divider divider-primary w-15 my-1"></div>
-      <div className="flex items-center justify-evenly gap-10 bg-base-200 py-6 px-10 rounded-lg">
-        <div className="mt-10">
-          <div className="max-w-sm mx-auto">
+      <div className="flex flex-col lg:flex-row items-start lg:justify-evenly gap-4 pt-10 rounded-lg">
+        <motion.div
+          initial={{ opacity: 0, x: -40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1 }}
+          className=" bg-base-200 w-full lg:w-1/2 rounded-lg relative"
+        >
+          <div className="max-w-sm lg:mx-auto px-4 lg:px-0 py-25 lg:py-0 lg:pt-25 lg:pb-40 ">
+            <h3 className="text-2xl font-bold flex items-center gap-4 mb-5 absolute top-8"><span className="w-2 h-8 bg-primary rounded-2xl"></span>Contact Info</h3>
             {/* mail */}
             <div className="flex items-center gap-2">
               <img className="w-10" src={mailImg} alt="" />
@@ -59,10 +66,15 @@ const Contact = () => {
               Download Resume
             </button>
           </div>
-        </div>
-        <div>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, x: 60 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1 }}
+          className="w-full lg:w-1/2 bg-base-200 rounded-lg"
+        >
           <ContactForm></ContactForm>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

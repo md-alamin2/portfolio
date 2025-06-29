@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import emailJs from "emailjs-com";
 import Swal from "sweetalert2";
+import { p } from "motion/react-client";
+import { FaPaperPlane } from "react-icons/fa";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -50,7 +52,8 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="w-lg mx-auto p-6">
+    <div className="lg:w-lg md:mx-auto p-6">
+      <h3 className="text-2xl font-bold flex items-center gap-4 mb-5"><span className="w-2 h-8 bg-primary rounded-2xl"></span> Send Message</h3>
       <form onSubmit={handleSubmit} className="space-y-4">
         {/* Name Field */}
         <div className="form-control">
@@ -108,7 +111,7 @@ const ContactForm = () => {
                 Sending...
               </>
             ) : (
-              "Submit"
+              <p className="flex items-center gap-3"><FaPaperPlane size={20} /> Send</p>
             )}
           </button>
         </div>

@@ -1,9 +1,13 @@
 import React from "react";
 import logo from "../../assets/myLogo.png";
 import { Link } from "react-scroll";
+import { motion } from "motion/react";
+import { FaCode, FaFileDownload, FaHome } from "react-icons/fa";
+import { IoPersonSharp } from "react-icons/io5";
+import { PiProjectorScreenFill } from "react-icons/pi";
+import { RiContactsBook2Fill } from "react-icons/ri";
 
 const Navbar = () => {
-
   const links = (
     <>
       <li>
@@ -14,9 +18,9 @@ const Navbar = () => {
           smooth={true}
           offset={-50}
           duration={500}
-          className="font-medium"
+          className="text-base font-medium flex items-center gap-1 mr-2"
         >
-          Home
+          <FaHome size={16} />Home
         </Link>
       </li>
       <li>
@@ -27,57 +31,62 @@ const Navbar = () => {
           smooth={true}
           offset={-80}
           duration={500}
-          className="font-medium"
+          className="text-base font-medium flex items-center gap-1 mr-2"
         >
-          About
+          <IoPersonSharp size={16} />About
         </Link>
       </li>
       <li>
-        <a
+        <Link
           activeClass=" !bg-primary text-white"
           to="skills"
           spy={true}
           smooth={true}
           offset={-80}
           duration={500}
-          className="font-medium"
+          className="text-base font-medium flex items-center gap-1 mr-2"
         >
-          Skills
-        </a>
+          <FaCode size={16} />Skills
+        </Link>
       </li>
       <li>
-        <a
+        <Link
           activeClass=" !bg-primary text-white"
           to="project"
           spy={true}
           smooth={true}
           offset={-80}
           duration={500}
-          className="font-medium"
+          className="text-base font-medium flex items-center gap-1 mr-2"
         >
-          Projects
-        </a>
+          <PiProjectorScreenFill size={16} />Projects
+        </Link>
       </li>
       <li>
-        <a
+        <Link
           activeClass="!bg-primary text-white"
           to="contact"
           spy={true}
           smooth={true}
           offset={-80}
           duration={500}
-          className="font-medium"
+          className="text-base font-medium flex items-center gap-1"
         >
-          Contact
-        </a>
+          <RiContactsBook2Fill size={16} />Contact
+        </Link>
       </li>
     </>
   );
   return (
-    <div className="navbar mb-0 bg-base-100">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.9, delay: 0.3 }}
+      className="navbar px-0 mb-0 w-11/12 lg:container mx-auto mt-0"
+    >
       <div className="navbar-start">
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden p-0 mr-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -101,17 +110,24 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <a to="/" className="text-xl font-semibold text-primary">
+        <Link
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={-80}
+          duration={500}
+          className="text-xl font-semibold text-primary cursor-pointer"
+        >
           <img className="w-30" src={logo} alt="" />
-        </a>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn btn-primary btn-outline">Resume</a>
+        <a className="btn btn-primary btn-outline"><FaFileDownload />Resume</a>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
