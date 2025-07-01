@@ -1,0 +1,5 @@
+.hero {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: white;
+  animation: fadeIn 1.5s ease-out;
+}

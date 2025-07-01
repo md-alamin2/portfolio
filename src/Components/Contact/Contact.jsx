@@ -9,7 +9,7 @@ import { motion } from "motion/react";
 
 const Contact = () => {
   return (
-    <div id="contact" className="mt-20 mx-auto">
+    <div id="contact" className="mt-20 mx-auto overflow-hidden">
       <h2 className="text-4xl font-bold mt-20">Contact Me</h2>
       <div className="divider divider-primary w-15 my-1"></div>
       <div className="flex flex-col lg:flex-row items-start lg:justify-evenly gap-4 pt-10 rounded-lg">

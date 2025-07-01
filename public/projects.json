@@ -9,13 +9,25 @@
       "Secure JWT Authentication"
     ],
     "tech": [
-      "React",
-      "Tailwind CSS",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Firebase",
-      "JWT"
+      { "tech": "React", "icon": "https://i.ibb.co/Z1H4PNCL/react.png" },
+      { "tech": "Tailwind CSS", "icon": "https://i.ibb.co/spS3CX3S/tailwind.png" },
+      { "tech": "Node.js", "icon": "https://i.ibb.co/rG4wv531/node.png" },
+      {
+        "tech": "Express.js",
+        "icon": "https://i.ibb.co/ZpQHnyYq/express.png"
+      },
+      {
+        "tech": "MongoDB",
+        "icon": "https://i.ibb.co/s9QYjM5z/mongodb.png"
+      },
+      {
+        "tech": "Firebase",
+        "icon": "https://i.ibb.co/xK81K3Zz/firebase.png"
+      },
+      {
+        "tech": "JWT",
+        "icon": "https://i.ibb.co/jkZNFCkZ/jwt.png"
+      }
     ],
     "image": "https://i.ibb.co/9HyLHPXg/localhost-5173.png",
     "links": [
@@ -43,13 +55,25 @@
       "Light/Dark Mode Toggle"
     ],
     "tech": [
-      "React",
-      "Tailwind CSS",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Firebase",
-      "JWT"
+      { "tech": "React", "icon": "https://i.ibb.co/Z1H4PNCL/react.png" },
+      { "tech": "Tailwind CSS", "icon": "https://i.ibb.co/spS3CX3S/tailwind.png" },
+      { "tech": "Node.js", "icon": "https://i.ibb.co/rG4wv531/node.png" },
+      {
+        "tech": "Express.js",
+        "icon": "https://i.ibb.co/ZpQHnyYq/express.png"
+      },
+      {
+        "tech": "MongoDB",
+        "icon": "https://i.ibb.co/s9QYjM5z/mongodb.png"
+      },
+      {
+        "tech": "Firebase",
+        "icon": "https://i.ibb.co/xK81K3Zz/firebase.png"
+      },
+      {
+        "tech": "JWT",
+        "icon": "https://i.ibb.co/jkZNFCkZ/jwt.png"
+      }
     ],
     "image": "https://i.ibb.co/NvjX24J/task-linker.png",
     "links": [
@@ -77,10 +101,13 @@
       "Personalized User Experience"
     ],
     "tech": [
-      "React",
-      "Firebase Authentication",
-      "React Router",
-      "Tailwind CSS"
+      { "tech": "React", "icon": "https://i.ibb.co/Z1H4PNCL/react.png" },
+      { "tech": "Tailwind CSS", "icon": "https://i.ibb.co/spS3CX3S/tailwind.png" },
+      { "tech": "Firebase", "icon": "https://i.ibb.co/xK81K3Zz/firebase.png" },
+      {
+        "tech": "React Router",
+        "icon": "https://i.ibb.co/Xr98yh7G/react-router.png"
+      }
     ],
     "image": "https://i.ibb.co/8gJXSBnk/dragon-news-dac2a-web-app-news-1.png",
     "links": [
@@ -104,7 +131,15 @@
       "Responsive UI with Smooth UX",
       "FAQ and Structured Lessons"
     ],
-    "tech": ["HTML", "Tailwind CSS", "DaisyUI", "Vanilla JavaScript"],
+    "tech": [
+      { "tech": "HTML", "icon": "https://i.ibb.co/7dps3434/html.png" },
+      { "tech": "Tailwind CSS", "icon": "https://i.ibb.co/spS3CX3S/tailwind.png" },
+      { "tech": "DaisyUI", "icon": "https://i.ibb.co/s9YjKFNm/daisyui-logo-removebg-preview.png" },
+      {
+        "tech": "Vanilla JavaScript",
+        "icon": "https://i.ibb.co/HfJXBLCd/js.png"
+      }
+    ],
     "image": "https://i.ibb.co/KzXgXBts/eng-janala.jpg",
     "links": [
       {
@@ -127,10 +162,13 @@
       "Appointment Cancellation"
     ],
     "tech": [
-      "React",
-      "Tailwind CSS",
-      "DaisyUI",
-      "React Router"
+      { "tech": "React", "icon": "https://i.ibb.co/Z1H4PNCL/react.png" },
+      { "tech": "Tailwind CSS", "icon": "https://i.ibb.co/spS3CX3S/tailwind.png" },
+      { "tech": "DaisyUI", "icon": "https://i.ibb.co/s9YjKFNm/daisyui-logo-removebg-preview.png" },
+      {
+        "tech": "React Router",
+        "icon": "https://i.ibb.co/Xr98yh7G/react-router.png"
+      }
     ],
     "image": "https://i.ibb.co/VcGySHT3/phudu.png",
     "links": [
@@ -144,6 +182,4 @@
       }
     ]
   }
-  
-
 ]

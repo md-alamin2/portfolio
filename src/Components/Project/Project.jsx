@@ -17,12 +17,12 @@ const Project = () => {
     <motion.div
       id="project"
       initial={{ opacity: 0 }}
-      whileInView={{opacity:1}}
+      animate={{opacity:1}}
       transition={{ duration: 2, delay: 0.3 }}
       className="mt-20 relative"
     >
-      <h2 className="text-4xl font-bold sticky top-25">Project</h2>
-      <div className="divider divider-primary w-15 my-1 sticky top-36"></div>
+      <h2 className="text-4xl font-bold sticky top-20 md:top-25">Project</h2>
+      <div className="divider divider-primary w-15 my-1 sticky top-30 md:top-36"></div>
 
       {loading ? (
         <span className="loading loading-dots loading-xl"></span>

@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 const ProjectCard = ({ project, index }) => {
   return (
     <motion.div
-      className={`bg-base-100 border border-gray-200 rounded-xl p-4 flex flex-col lg:flex-row gap-6 shadow mt-5 sticky top-40 md:top-44 z-2 ${index>0&& "top-44 md:top-48"} ${index>1&& "top-48 md:top-52"} ${index>2&& "top-52 md:top-56"} ${index>3&& "top-56 md:top-60"}`}
+      className={`bg-base-100 border border-gray-200 rounded-xl p-4 flex flex-col lg:flex-row gap-2 md:gap-6 shadow mt-5 sticky top-35 md:top-44 z-2 ${index>0&& "top-39 md:top-48"} ${index>1&& "top-43 md:top-52"} ${index>2&& "top-51 md:top-56"} ${index>3&& "top-56 md:top-60"}`}
     >
       {/* Scrollable image section */}
       <div className="lg:w-1/2 overflow-hidden relative h-40 md:h-80 rounded-xl border border-gray-200 group">
@@ -18,7 +18,7 @@ const ProjectCard = ({ project, index }) => {
       </div>
 
       {/* Right content */}
-      <div className="lg:w-1/2 space-y-3">
+      <div className="lg:w-1/2 space-y-1 md:space-y-3">
         <h2 className="text-2xl font-bold">{project.title}</h2>
         <p className="text-gray-600">{project.description}</p>
         <div>
@@ -33,8 +33,8 @@ const ProjectCard = ({ project, index }) => {
         <div className="flex flex-wrap gap-2 mt-2 max-w-md">
           <p className="font-semibold">Tech:</p>
           {project.tech.map((tech, i) => (
-            <span key={i} className="badge badge-info rounded text-sm border">
-              {tech}
+            <span key={i} className="badge bg-base-300 rounded text-sm border flex items-center hover:transition hover:duration-500 hover:border-primary">
+             <img className="w-5" src={tech.icon} alt="" /> {tech.tech}
             </span>
           ))}
         </div>

@@ -36,7 +36,7 @@ const Skills = () => {
         setSkillData(data);
         setLoading(false);
       });
-  });
+  },[]);
   return (
     <motion.div
       variants={containerVariants}
