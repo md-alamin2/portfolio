@@ -17,6 +17,7 @@ const Contact = () => {
           initial={{ opacity: 0, x: -40 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
+          viewport={{once:true}}
           className=" bg-base-200 w-full lg:w-1/2 rounded-lg relative"
         >
           <div className="max-w-sm lg:mx-auto px-4 lg:px-0 py-25 lg:py-0 lg:pt-25 lg:pb-40 ">
@@ -71,6 +72,7 @@ const Contact = () => {
           initial={{ opacity: 0, x: 60 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
+          viewport={{once:true}}
           className="w-full lg:w-1/2 bg-base-200 rounded-lg"
         >
           <ContactForm></ContactForm>

@@ -28,46 +28,50 @@ const itemVariants = {
 
 const Skills = () => {
   const [skillsData, setSkillData] = useState([]);
+  console.log(skillsData);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
+    setLoading(true);
     fetch("/skills.json")
       .then((res) => res.json())
       .then((data) => {
         setSkillData(data);
         setLoading(false);
       });
-  },[]);
+  }, []);
   return (
-    <motion.div
-      variants={containerVariants}
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, amount: 0.3 }}
-      id="skills"
-      className="mt-20 max-w-7xl mx-auto"
-    >
-      <h2 className="text-4xl font-bold">Skills</h2>
-      <div className="divider divider-primary w-15 my-1"></div>
+    <div>
       {loading ? (
-        <span className="loading loading-dots loading-xl"></span>
+        <div className="flex justify-center"><span className="loading loading-dots loading-xl"></span></div>
       ) : (
-        <div className="max-w-5xl mx-auto mt-5 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {skillsData.map((skill, index) => (
-            <motion.div
-              variants={itemVariants}
-              whileHover={{ scale: 1.05 }}
-              transition={{ duration: 0.2 }}
-              key={index}
-              className="px-4 py-8 shadow-lg rounded-lg text-center border border-gray-200 hover:shadow-xl"
-            >
-              <img className="w-15 mx-auto" src={skill.icon} alt="" />
-              <h3 className="text-2xl font-bold mt-2">{skill.name}</h3>
-              <p className="mt-2 font-semibold">{skill.level}</p>
-            </motion.div>
-          ))}
-        </div>
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          id="skills"
+          className="mt-20 max-w-7xl mx-auto"
+        >
+          <h2 className="text-4xl font-bold">Skills</h2>
+          <div className="divider divider-primary w-15 my-1"></div>
+          <div className="max-w-5xl mx-auto mt-5 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            {skillsData.map((skill, index) => (
+              <motion.div
+                variants={itemVariants}
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.2 }}
+                key={index}
+                className="px-4 py-8 shadow-lg rounded-lg text-center border border-gray-200 hover:shadow-xl"
+              >
+                <img className="w-15 mx-auto" src={skill.icon} alt="" />
+                <h3 className="text-2xl font-bold mt-2">{skill.name}</h3>
+                <p className="mt-2 font-semibold">{skill.level}</p>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
       )}
-    </motion.div>
+    </div>
   );
 };
 
