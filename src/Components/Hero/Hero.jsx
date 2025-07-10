@@ -49,7 +49,7 @@ const Hero = () => {
                 />
               </a>
               <a
-                href="https://www.linkedin.com/in/md-al-amin-7a191b339/"
+                href="https://www.linkedin.com/in/md-al-amin823/"
                 target="_blank"
               >
                 <img
@@ -70,9 +70,9 @@ const Hero = () => {
               </a>
             </div>
             <div className="mt-5 flex items-center justify-center md:justify-start gap-3">
-              <button className="btn btn-primary text-white mt-4">
+              <a href="/MD_Al-amin_Resume.pdf" download="MD_Al-amin_Resume.pdf" className="btn btn-primary text-white mt-4">
                 <FaFileDownload size={20} /> Resume
-              </button>
+              </a>
               <Link
                 to="contact"
                 spy={true}

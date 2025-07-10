@@ -42,7 +42,7 @@ const Contact = () => {
                 />
               </a>
               <a
-                href="https://www.linkedin.com/in/md-al-amin-7a191b339/"
+                href="https://www.linkedin.com/in/md-al-amin823/"
                 target="_blank"
               >
                 <img

@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
+import { CiPaperplane } from "react-icons/ci";
+import { FaGithub } from "react-icons/fa";
 
 const ProjectCard = ({ project, index }) => {
   return (
@@ -48,7 +50,7 @@ const ProjectCard = ({ project, index }) => {
               target="_blank"
               rel="noreferrer"
             >
-              {link.type}
+              {index==0?<CiPaperplane size={20} />:<FaGithub size={20} />} {link.type}
             </a>
           ))}
         </div>

@@ -125,7 +125,7 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn btn-primary btn-outline"><FaFileDownload />Resume</a>
+        <a href="/MD_Al-amin_Resume.pdf" download="MD_Al-amin_Resume.pdf" className="btn btn-primary btn-outline"><FaFileDownload />Resume</a>
       </div>
     </motion.div>
   );
