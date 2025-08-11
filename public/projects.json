@@ -1,5 +1,59 @@
 [
   {
+    "id": 1,
+    "title": "GamePlan",
+    "description": "GamePlan – Sports club Management platform with payments, reviews, and admin tools for managing facilities, bookings, members, and announcements.",
+    "keyFeatures": [
+      "Court Booking",
+      "Role-Based Access",
+      "Secure Payments",
+      "Admin Management"
+    ],
+    "tech": [
+      { "tech": "React", "icon": "https://i.ibb.co/Z1H4PNCL/react.png" },
+      {
+        "tech": "Tailwind CSS",
+        "icon": "https://i.ibb.co/spS3CX3S/tailwind.png"
+      },
+      { "tech": "Node.js", "icon": "https://i.ibb.co/rG4wv531/node.png" },
+      { "tech": "Express.js", "icon": "https://i.ibb.co/ZpQHnyYq/express.png" },
+      { "tech": "MongoDB", "icon": "https://i.ibb.co/s9QYjM5z/mongodb.png" },
+      { "tech": "Firebase", "icon": "https://i.ibb.co/xK81K3Zz/firebase.png" },
+      { "tech": "JWT", "icon": "https://i.ibb.co/jkZNFCkZ/jwt.png" }
+    ],
+    "image": [
+      "https://i.ibb.co.com/BKZcHncb/Screenshot-108.png",
+      "https://i.ibb.co.com/6cXGfMjz/Screenshot-109.png",
+      "https://i.ibb.co.com/v4YTsdRB/Screenshot-110.png",
+      "https://i.ibb.co.com/F4qFT2sx/Screenshot-111.png"
+    ],
+    "links": [
+      { "type": "Live", "url": "https://game-plane-63ab0.web.app/" },
+      {
+        "type": "Client Side Code",
+        "url": "https://github.com/md-alamin2/game-plan"
+      },
+      {
+        "type": "Server Side Code",
+        "url": "https://github.com/md-alamin2/game-plan-server"
+      }
+    ],
+    "challenges": [
+      "Implementing real-time booking updates without conflicts when multiple users try to book the same slot",
+      "Developing a robust payment system with proper validation and error handling",
+      "Creating an admin dashboard with comprehensive management tools",
+      "Optimizing database queries for the booking system during peak hours"
+    ],
+    "futurePlans": [
+      "Add membership subscription model with recurring payments",
+      "Implement player matching system for solo players",
+      "Add tournament management features",
+      "Develop mobile app for easier booking on the go",
+      "Integrate with weather APIs to suggest indoor alternatives"
+    ]
+  },
+  {
+    "id": 2,
     "title": "Fresh Reminders",
     "description": "Fresh Reminders is a food inventory management app that helps users track expiry dates, reduce waste, and stay organized using search, filters, notes, and JWT-based authentication.",
     "keyFeatures": [
@@ -10,31 +64,23 @@
     ],
     "tech": [
       { "tech": "React", "icon": "https://i.ibb.co/Z1H4PNCL/react.png" },
-      { "tech": "Tailwind CSS", "icon": "https://i.ibb.co/spS3CX3S/tailwind.png" },
+      {
+        "tech": "Tailwind CSS",
+        "icon": "https://i.ibb.co/spS3CX3S/tailwind.png"
+      },
       { "tech": "Node.js", "icon": "https://i.ibb.co/rG4wv531/node.png" },
-      {
-        "tech": "Express.js",
-        "icon": "https://i.ibb.co/ZpQHnyYq/express.png"
-      },
-      {
-        "tech": "MongoDB",
-        "icon": "https://i.ibb.co/s9QYjM5z/mongodb.png"
-      },
-      {
-        "tech": "Firebase",
-        "icon": "https://i.ibb.co/xK81K3Zz/firebase.png"
-      },
-      {
-        "tech": "JWT",
-        "icon": "https://i.ibb.co/jkZNFCkZ/jwt.png"
-      }
+      { "tech": "Express.js", "icon": "https://i.ibb.co/ZpQHnyYq/express.png" },
+      { "tech": "MongoDB", "icon": "https://i.ibb.co/s9QYjM5z/mongodb.png" },
+      { "tech": "Firebase", "icon": "https://i.ibb.co/xK81K3Zz/firebase.png" },
+      { "tech": "JWT", "icon": "https://i.ibb.co/jkZNFCkZ/jwt.png" }
     ],
-    "image": "https://i.ibb.co/9HyLHPXg/localhost-5173.png",
+    "image": [
+      "https://i.ibb.co.com/sSTMkRb/Screenshot-112.png",
+      "https://i.ibb.co.com/mVQXf4N4/Screenshot-113.png",
+      "https://i.ibb.co.com/gLTgZwsw/Screenshot-114.png"
+    ],
     "links": [
-      {
-        "type": "Live",
-        "url": "https://fresh-reminder-82973.web.app"
-      },
+      { "type": "Live", "url": "https://fresh-reminder-82973.web.app" },
       {
         "type": "Client Side Code",
         "url": "https://github.com/md-alamin2/fresh-reminder"
@@ -43,9 +89,22 @@
         "type": "Server Side Code",
         "url": "https://github.com/md-alamin2/fresh-reminder-server"
       }
+    ],
+    "challenges": [
+      "Managing state for the inventory items with complex filtering options was initially challenging",
+      "Implementing secure JWT authentication with proper token refresh flow took multiple iterations",
+      "Optimizing database queries for the search functionality with multiple filters required several performance tweaks"
+    ],
+    "futurePlans": [
+      "Implement meal planning suggestions based on expiring items",
+      "Add family/shared inventory management features",
+      "Develop mobile apps for iOS and Android using React Native",
+      "Integrate with smart home devices for kitchen inventory tracking",
+      "Add AI-powered waste reduction suggestions and recipes"
     ]
   },
   {
+    "id": 3,
     "title": "Task Linker",
     "description": "A freelance platform where clients post tasks, freelancers bid, and both manage work securely. Features include task control, bid tracking, user profiles, authentication, and light/dark mode support.",
     "keyFeatures": [
@@ -56,31 +115,23 @@
     ],
     "tech": [
       { "tech": "React", "icon": "https://i.ibb.co/Z1H4PNCL/react.png" },
-      { "tech": "Tailwind CSS", "icon": "https://i.ibb.co/spS3CX3S/tailwind.png" },
+      {
+        "tech": "Tailwind CSS",
+        "icon": "https://i.ibb.co/spS3CX3S/tailwind.png"
+      },
       { "tech": "Node.js", "icon": "https://i.ibb.co/rG4wv531/node.png" },
-      {
-        "tech": "Express.js",
-        "icon": "https://i.ibb.co/ZpQHnyYq/express.png"
-      },
-      {
-        "tech": "MongoDB",
-        "icon": "https://i.ibb.co/s9QYjM5z/mongodb.png"
-      },
-      {
-        "tech": "Firebase",
-        "icon": "https://i.ibb.co/xK81K3Zz/firebase.png"
-      },
-      {
-        "tech": "JWT",
-        "icon": "https://i.ibb.co/jkZNFCkZ/jwt.png"
-      }
+      { "tech": "Express.js", "icon": "https://i.ibb.co/ZpQHnyYq/express.png" },
+      { "tech": "MongoDB", "icon": "https://i.ibb.co/s9QYjM5z/mongodb.png" },
+      { "tech": "Firebase", "icon": "https://i.ibb.co/xK81K3Zz/firebase.png" },
+      { "tech": "JWT", "icon": "https://i.ibb.co/jkZNFCkZ/jwt.png" }
     ],
-    "image": "https://i.ibb.co/NvjX24J/task-linker.png",
+    "image": [
+      "https://i.ibb.co.com/ccx4C3RQ/Screenshot-115.png",
+      "https://i.ibb.co.com/bgk1c7fs/Screenshot-116.png",
+      "https://i.ibb.co.com/j9dnTrn0/Screenshot-117.png"
+    ],
     "links": [
-      {
-        "type": "Live",
-        "url": "https://ph-assignment-10-43909.web.app/"
-      },
+      { "type": "Live", "url": "https://ph-assignment-10-43909.web.app/" },
       {
         "type": "Client Side Code",
         "url": "https://github.com/md-alamin2/task-linker"
@@ -89,9 +140,23 @@
         "type": "Server Side Code",
         "url": "https://github.com/md-alamin2/task-linker-server"
       }
+    ],
+    "challenges": [
+      "Creating a fair bidding system that protects both clients and freelancers",
+      "Developing comprehensive user profiles with rating systems",
+      "Managing real-time updates for bids and task status changes"
+    ],
+    "futurePlans": [
+      "Add video call integration for client-freelancer meetings",
+      "Implementing secure payment escrow system for task completion",
+      "Implement AI-based task recommendation system",
+      "Add portfolio showcase for freelancers",
+      "Develop skill verification system with tests",
+      "Add subscription plans for premium features"
     ]
   },
   {
+    "id": 4,
     "title": "Dragoon News",
     "description": "Dragoon News is a responsive front-end web app built with React that delivers real-time news across topics with personalized access through secure Firebase authentication.",
     "keyFeatures": [
@@ -102,27 +167,43 @@
     ],
     "tech": [
       { "tech": "React", "icon": "https://i.ibb.co/Z1H4PNCL/react.png" },
-      { "tech": "Tailwind CSS", "icon": "https://i.ibb.co/spS3CX3S/tailwind.png" },
+      {
+        "tech": "Tailwind CSS",
+        "icon": "https://i.ibb.co/spS3CX3S/tailwind.png"
+      },
       { "tech": "Firebase", "icon": "https://i.ibb.co/xK81K3Zz/firebase.png" },
       {
         "tech": "React Router",
         "icon": "https://i.ibb.co/Xr98yh7G/react-router.png"
       }
     ],
-    "image": "https://i.ibb.co/8gJXSBnk/dragon-news-dac2a-web-app-news-1.png",
+    "image": [
+      "https://i.ibb.co.com/8DrwKyvw/Screenshot-118.png",
+      "https://i.ibb.co.com/0VCzvjMR/Screenshot-119.png",
+      "https://i.ibb.co.com/dJVsfyDk/Screenshot-120.png"
+    ],
     "links": [
-      {
-        "type": "Live",
-        "url": "https://useless-bulb.surge.sh/"
-      },
+      { "type": "Live", "url": "https://useless-bulb.surge.sh/" },
       {
         "type": "Client Side Code",
         "url": "https://github.com/md-alamin2/flagship-phone"
       }
+    ],
+    "challenges": [
+      "Fetching and displaying real-time news from multiple sources efficiently",
+      "Creating a responsive layout that works well with various news content formats"
+    ],
+    "futurePlans": [
+      "Add news source preferences and filtering",
+      "Implement offline reading capabilities",
+      "Add dark mode support for better night reading",
+      "Develop a recommendation engine for personalized news",
+      "Add social sharing and commenting features",
+      "Create a mobile app version"
     ]
   },
-
   {
+    "id": 5,
     "title": "English জানালা",
     "description": "English জানালা is a vocabulary learning app that helps users build English skills through level-based word lessons, pronunciation, and clean UI — built with HTML, Tailwind CSS, DaisyUI, and JavaScript.",
     "keyFeatures": [
@@ -133,26 +214,49 @@
     ],
     "tech": [
       { "tech": "HTML", "icon": "https://i.ibb.co/7dps3434/html.png" },
-      { "tech": "Tailwind CSS", "icon": "https://i.ibb.co/spS3CX3S/tailwind.png" },
-      { "tech": "DaisyUI", "icon": "https://i.ibb.co/s9YjKFNm/daisyui-logo-removebg-preview.png" },
+      {
+        "tech": "Tailwind CSS",
+        "icon": "https://i.ibb.co/spS3CX3S/tailwind.png"
+      },
+      {
+        "tech": "DaisyUI",
+        "icon": "https://i.ibb.co/s9YjKFNm/daisyui-logo-removebg-preview.png"
+      },
       {
         "tech": "Vanilla JavaScript",
         "icon": "https://i.ibb.co/HfJXBLCd/js.png"
       }
     ],
-    "image": "https://i.ibb.co/KzXgXBts/eng-janala.jpg",
+    "image": [
+      "https://i.ibb.co/KzXgXBts/eng-janala.jpg",
+      "https://i.ibb.co.com/QF8wyYXN/Screenshot-121.png",
+      "https://i.ibb.co.com/bgzCC9qF/Screenshot-122.png"
+    ],
     "links": [
       {
         "type": "Live",
-        "url": "https://md-alamin2.github.io/collage-project/"
+        "url": "https://md-alamin2.github.io/english-janala/"
       },
       {
         "type": "Client Side Code",
         "url": "https://github.com/md-alamin2/collage-project"
       }
+    ],
+    "challenges": [
+      "Implementing audio pronunciation for words with proper timing",
+      "Designing responsive layouts that work well for language learning",
+      "Managing state without a framework in vanilla JavaScript"
+    ],
+    "futurePlans": [
+      "Add gamification elements (badges, streaks, leaderboards)",
+      "Implement spaced repetition algorithm for better retention",
+      "Add conversational practice with speech recognition",
+      "Expand to include grammar lessons",
+      "Develop mobile app versions"
     ]
   },
   {
+    "id": 6,
     "title": "Phudu",
     "description": "Phudu is a user-friendly appointment booking platform where patients can easily find doctors based on their health concerns, schedule appointments, view booking history, and cancel appointments — all in one place.",
     "keyFeatures": [
@@ -163,23 +267,40 @@
     ],
     "tech": [
       { "tech": "React", "icon": "https://i.ibb.co/Z1H4PNCL/react.png" },
-      { "tech": "Tailwind CSS", "icon": "https://i.ibb.co/spS3CX3S/tailwind.png" },
-      { "tech": "DaisyUI", "icon": "https://i.ibb.co/s9YjKFNm/daisyui-logo-removebg-preview.png" },
+      {
+        "tech": "Tailwind CSS",
+        "icon": "https://i.ibb.co/spS3CX3S/tailwind.png"
+      },
+      {
+        "tech": "DaisyUI",
+        "icon": "https://i.ibb.co/s9YjKFNm/daisyui-logo-removebg-preview.png"
+      },
       {
         "tech": "React Router",
         "icon": "https://i.ibb.co/Xr98yh7G/react-router.png"
       }
     ],
-    "image": "https://i.ibb.co/VcGySHT3/phudu.png",
+    "image": [
+      "https://i.ibb.co.com/MDyW35C2/Screenshot-123.png",
+      "https://i.ibb.co.com/3y34xpjW/Screenshot-124.png",
+      "https://i.ibb.co.com/CpcDJK0N/Screenshot-125.png"
+    ],
     "links": [
-      {
-        "type": "Live",
-        "url": "http://ignorant-copper.surge.sh/"
-      },
+      { "type": "Live", "url": "http://ignorant-copper.surge.sh/" },
       {
         "type": "Client Side Code",
         "url": "https://github.com/md-alamin2/phudu"
       }
+    ],
+    "challenges": [
+      "Implementing a reliable appointment scheduling system",
+      "Designing a clean UI that works for all age groups"
+    ],
+    "futurePlans": [
+      "Add telemedicine video consultation features",
+      "Implement prescription management system",
+      "Add health insurance verification",
+      "Develop doctor dashboard for patient management"
     ]
   }
 ]
