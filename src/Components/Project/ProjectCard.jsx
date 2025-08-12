@@ -8,10 +8,10 @@ import ImageSlider from "../Slider/Slider";
 const ProjectCard = ({ project, index }) => {
   return (
     <motion.div
-      className={`bg-base-100 border border-gray-200 rounded-xl p-4 flex flex-col lg:flex-row gap-2 md:gap-6 shadow mt-5 sticky top-35 md:top-44 z-2 ${
-        index > 0 && "top-39 md:top-48"
-      } ${index > 1 && "top-43 md:top-52"} ${index > 2 && "top-51 md:top-56"} ${
-        index > 3 && "top-56 md:top-60"
+      className={`bg-base-100 border border-gray-200 rounded-xl p-4 flex flex-col lg:flex-row gap-2 md:gap-6 shadow mt-5 sticky top-20 md:top-44 z-2 ${
+        index > 0 && " md:top-48"
+      } ${index > 1 && " md:top-52"} ${index > 2 && "md:top-56"} ${
+        index > 3 && "md:top-60"
       }`}
     >
       {/* Scrollable image section */}
@@ -57,11 +57,13 @@ const ProjectCard = ({ project, index }) => {
               {link.type}
             </a>
           ))}
-        <Link to={`/project-detail/${project.id}`}>
-          <button className="btn btn-primary text-white">
-            See Details <FaArrowRight></FaArrowRight>
-          </button>
-        </Link>
+          <Link
+            to={`/project-detail/${project.id}`}
+          >
+            <button className="btn btn-primary text-white">
+              See Details <FaArrowRight></FaArrowRight>
+            </button>
+          </Link>
         </div>
       </div>
     </motion.div>

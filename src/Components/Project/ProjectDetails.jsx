@@ -1,17 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaArrowLeft, FaGithub } from "react-icons/fa";
 import { Link, useLoaderData, useParams } from "react-router";
 import ImageSlider from "../Slider/Slider";
 import { CiPaperplane } from "react-icons/ci";
+import { motion } from "motion/react";
 
 const ProjectDetails = () => {
   const projects = useLoaderData();
   const { id } = useParams();
   const singleProject = projects.find((project) => project.id == id);
-  console.log(singleProject);
+
+  useEffect(()=>{
+        window.scroll(0,0)
+    },[id]);
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-12">
+    <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:0.5}} className="max-w-6xl mx-auto px-4 py-12">
       {/* Back button */}
       <Link to="/" className="btn btn-primary text-white mb-5">
         <FaArrowLeft></FaArrowLeft>
@@ -158,7 +162,7 @@ const ProjectDetails = () => {
           ))}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
